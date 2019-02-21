@@ -1,6 +1,31 @@
 # Weather Widget <!-- omit in toc -->
 
-A simple weather widget built for a technical test.
+A simple weather widget built for a [technical test](https://ffxblue.github.io/interview-tests/test/weather-widget/).
+
+## Todo <!-- omit in toc -->
+
+- Add Error Boundries.
+- Make API key private ([see](https://www.robinwieruch.de/react-fetching-data/#comment-3964499401)).
+- Show night/day icons.
+- Deploy to GH Pages.
+- Tests.
+- Loading placeholder for icon.
+- Favicon.
+- stylelint.
+- Local storage.
+- Add a page reload button to `EditorWidget` to give option to refresh location.
+- Set focus to relevant element when view loads.
+
+## If I had more time <!-- omit in toc -->
+
+- Use TypeScript.
+- Swap out the `.png` icons for custom SVG icons that I'd render inline.
+- Add Storybook.
+- Fallback for browsers that don't support Geolocation API, use IP Lookup ([see](https://medium.com/@adeyinkaadegbenro/how-to-detect-the-location-of-your-websites-visitor-using-javascript-92f9e91c095f)).
+
+## Going Beyond the Requirements <!-- omit in toc -->
+
+- I added a page title (`<h1>`) as I felt it improved the UX.
 
 ## Table of Contents <!-- omit in toc -->
 
@@ -9,14 +34,7 @@ A simple weather widget built for a technical test.
     - [`npm start`](#npm-start)
     - [`npm test`](#npm-test)
     - [`npm run build`](#npm-run-build)
-    - [`npm run eject`](#npm-run-eject)
   - [Learn More](#learn-more)
-    - [Code Splitting](#code-splitting)
-    - [Analyzing the Bundle Size](#analyzing-the-bundle-size)
-    - [Making a Progressive Web App](#making-a-progressive-web-app)
-    - [Advanced Configuration](#advanced-configuration)
-    - [Deployment](#deployment)
-    - [`npm run build` fails to minify](#npm-run-build-fails-to-minify)
 
 ## Built with Create React App
 
@@ -28,7 +46,9 @@ In the project directory, you can run:
 
 #### `npm start`
 
-Runs the app in the development mode.<br> Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Runs the app in the development mode.
+
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br> You will also see any lint errors in the console.
 
@@ -44,42 +64,6 @@ The build is minified and the filenames include the hashes.<br> Your app is read
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-#### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
 ### Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-#### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-#### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-#### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-#### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-#### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-#### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

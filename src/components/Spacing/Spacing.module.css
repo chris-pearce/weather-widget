@@ -1,0 +1,19 @@
+.small-1x {
+  margin-bottom: var(--spacing-small-1x);
+}
+
+.small-2x {
+  margin-bottom: var(--spacing-small-2x);
+}
+
+.default {
+  margin-bottom: var(--spacing-default);
+}
+
+.large-1x {
+  margin-bottom: var(--spacing-large-1x);
+}
+
+.large-2x {
+  margin-bottom: var(--spacing-large-2x);
+}

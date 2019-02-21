@@ -1,0 +1,28 @@
+.root {
+  --padding: var(--spacing-large-1x);
+  --top-decorator: 14px;
+
+  background-color: var(--color-page-bg);
+  border: 1px solid #d0d0d0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 calc((var(--top-decorator) - 5px) * -1) 0 var(--color-white),
+    0 calc(var(--top-decorator) * -1) 0 var(--color-brand);
+  max-width: 60rem;
+  min-width: 13.75rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: var(--top-decorator);
+  padding: var(--padding);
+}
+
+@media (width >= 40em) {
+  .root {
+    --padding: 4rem;
+  }
+}
+
+.heading {
+  font-size: 2.2rem;
+  margin-bottom: var(--spacing-large-1x);
+}
